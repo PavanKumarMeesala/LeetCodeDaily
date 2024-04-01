@@ -24,7 +24,7 @@ class Solution {
 /* Approach:
 
 Step 1: Initailize the variable end to the last character of the string.
-Step 2: Elminate the spaces
+Step 2: Elminate the spaces(end-- if(character == ' '))
 Step 3: Initailze the result varible
 Step 4: Count the characters(result++) and iterate throught the characters(end--)
         until you encounter another space.
